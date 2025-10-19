@@ -1,5 +1,6 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.2.6/schema.json",
+
 	"vcs": {
 		"enabled": false,
 		"clientKind": "git",
@@ -7,7 +8,8 @@
 	},
 	"files": {
 		"ignoreUnknown": true,
-		"experimentalScannerIgnores": ["node_modules"],
+		"experimentalScannerIgnores": ["node_modules", "dist", "build"],
+
 		"maxSize": 2097152
 	},
 	"formatter": {
